@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>lazyload</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>if (!&lt;#_array#&gt;) {
+&lt;#NSMutableArray#&gt; *&lt;#arr#&gt; = [[&lt;#NSMutableArray#&gt; alloc] init];
+&lt;#_array#&gt; = &lt;#arr#&gt;;
+    }
+return &lt;#_array#&gt;;</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>9C616B31-9E34-4149-9E22-F8A08C9E0240</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>qy懒加载</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>qy_lazyLoad</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
