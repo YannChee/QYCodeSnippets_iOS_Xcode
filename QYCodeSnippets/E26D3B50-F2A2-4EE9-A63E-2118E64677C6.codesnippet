@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>QYCreateBtn</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    private func createBtn() -&gt; UIButton {
+        let btn = UIButton()
+        btn.setTitle("追剧", for: .normal)
+        btn.setImage(UIImage(named: "main_recommended_collect"), for: .normal)
+        btn.titleLabel?.font = UIFont.systemFont(ofSize: 12,weight: .medium)
+        btn.setTitleColor(.white, for: .normal)
+        btn.layer.cornerRadius = 5
+        btn.clipsToBounds = true
+        btn.backgroundColor = UIColor.my.colorWithHexString("#272727")
+        return btn
+    }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>E26D3B50-F2A2-4EE9-A63E-2118E64677C6</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>QYCreateBtn</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>QYCreateTitleLabel</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>private func createTitleLabel() -&gt; UILabel {
+    let label = UILabel()
+    label.text = "清晰度"
+    label.textColor = UIColorFromRGB(0x1C1E1F)
+    label.font = UIFont.systemFont(ofSize: 14,weight: .medium)
+    label.my.insertImage(image: UIImage(named: "play_detail_resolution"), imageSize: CGSize(width: 16, height: 16), isImageInfront: true)
+    return label
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>D8DD878A-61D1-4E05-8E0B-BE70FB04A770</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>QYCreateTitleLabel</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

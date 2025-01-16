@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>createStackView</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>  private func creatStackView() -&gt; UIStackView {
+        let stackView = UIStackView()
+        stackView.axis = .vertical // 设置为垂直方向
+        stackView.alignment = .fill // 对齐方式
+        stackView.distribution = .equalSpacing // 元素之间的间距均匀
+        stackView.spacing = 14 // 设置行间距
+        stackView.translatesAutoresizingMaskIntoConstraints = false // 启用 Auto Layout
+        return stackView
+    }
+    </string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>552696E9-3D53-4011-BB21-E86DE9FFF473</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>qy_createStackView</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
