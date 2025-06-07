@@ -4,8 +4,6 @@ https://github.com/YannChee/QMUI_iOS_CodeSnippets
 
 
 ```
- cd ~/Library/Developer/Xcode/UserData/CodeSnippets
-
 cd ~/Library/Developer/Xcode/UserData/CodeSnippets
-git clone https://github.com/QMUI/QMUI_iOS_CodeSnippets.git ./
+git clone https://github.com/YannChee/QYCodeSnippets_iOS_Xcode.git ./
 ```
